@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/135.193b4c30.chunk.css","mappings":"AAAA,MACE,YACF,CAEA,YACE,cAAe,CACf,kBACF","sources":["pages/Home/assets/index.css"],"sourcesContent":[".home {\n  padding: 24px;\n}\n\n.home-title {\n  font-size: 36px;\n  margin-bottom: 16px;\n}\n"],"names":[],"sourceRoot":""}
