@@ -1,0 +1,39 @@
+.movie-item {
+  width: calc((100% - 72px) / 7);
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  transition: transform 0.3s ease;
+}
+
+.movie-item:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.movie-item-img {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.movie-item-text {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}

@@ -1,0 +1,12 @@
+.movie {
+  padding: 24px;
+}
+
+.movie-go-back-link {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  font-size: 18px;
+}

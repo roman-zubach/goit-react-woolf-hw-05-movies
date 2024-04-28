@@ -1,0 +1,42 @@
+.review-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.review-header {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.review-author-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.review-author {
+  font-size: 1.1em;
+}
+
+.review-date {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+}
+
+.review-content {
+  margin-top: 10px;
+  font-size: 18px;
+}
