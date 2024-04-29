@@ -39,7 +39,7 @@ const Movies = () => {
   }, [query]);
 
   const updateSearch = (newValue) => {
-    if (query === newValue) return;
+    if (query.toLocaleLowerCase() === newValue.toLocaleLowerCase()) return;
 
     setSearchParams({ query: newValue });
   };
